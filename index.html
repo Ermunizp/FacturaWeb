@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factura/Proforma</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="contenedor-factura">
+
+    <!-- Datos de la Empresa -->
+    <table class="tabla empresa">
+      <tr>
+        <td>
+          <h2>Mi Empresa S.A.</h2>
+          <p>Dirección: Calle Gral. Cordova 456, Guayaquil</p>
+          <p>RUC: 1234567890001</p>
+          <p>Tel: (04) 123-4567 | Email: contacto1@miempresa.com</p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Datos del Cliente -->
+    <table class="tabla cliente">
+      <tr><th colspan="2">Datos del Cliente</th></tr>
+      <tr>
+        <td>Nombre:</td><td>Esteban Muñiz</td>
+      </tr>
+      <tr>
+        <td>Cédula/RUC:</td><td>0914623988</td>
+      </tr>
+      <tr>
+        <td>Dirección:</td><td>Urbanización La Joya, Guayaquil</td>
+      </tr>
+      <tr>
+        <td>Teléfono:</td><td>0996194468</td>
+      </tr>
+    </table>
+
+    <!-- Listado de Productos -->
+    <table class="tabla productos">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Descripción</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Producto 1</td>
+          <td>2</td>
+          <td>$10.00</td>
+          <td>$20.00</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Producto 2</td>
+          <td>1</td>
+          <td>$15.00</td>
+          <td>$15.00</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Producto 3</td>
+          <td>3</td>
+          <td>$10.00</td>
+          <td>$30.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" class="total-label">Total</td>
+          <td>$65.00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Información Adicional -->
+    <table class="tabla adicional">
+      <tr>
+        <td><strong>Forma de Pago:</strong> Efectivo</td>
+      </tr>
+      <tr>
+        <td><strong>Observaciones:</strong> Entrega inmediata.</td>
+      </tr>
+      <tr>
+        <td class="pie-pagina">
+          Gracias por su compra. Visite nuestra web: www.miempresa.com
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+</body>
+</html>
