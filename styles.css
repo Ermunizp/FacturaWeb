@@ -60,3 +60,14 @@ body {
   margin-top: 10px;
   color: #555;
 }
+
+.logo-empresa {
+  width: 120px;
+  height: auto;
+}
+
+.logo-col {
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
