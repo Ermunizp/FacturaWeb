@@ -11,7 +11,7 @@ public/
 │ └── styles.css # Archivo de estilos externos CSS
 ├── img/
 │ └── Logo.jpg # Imagen del logo de la empresa
-└── README.md # Documentación del proyecto
+README.md # Documentación del proyecto
 
 ## 📋 Características
 
